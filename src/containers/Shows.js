@@ -49,7 +49,7 @@ const Shows = ({ id }) => (
         <Li key="2019-05-16">
           <Show
             title="Step Higher"
-            startDate="Thursday, 16 MAY"
+            startDate="Thursday, 16 MAY 23:00&ndash;1:30"
             startYear="2019"
             venueName="VOID Berlin"
             venueSecret={false}
