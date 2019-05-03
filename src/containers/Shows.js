@@ -37,13 +37,26 @@ const Shows = ({ id }) => (
     <Section aria-labelledby="shows-upcoming">
       <H2 id="shows-upcoming">Upcoming</H2>
       <Ul>
-        <Li key="2019-XX-XX">
+        {/* <Li key="2019-XX-XX">
           <Show
             title="Fire Loves Sugar: EP Release Party"
             startDate="To be announced"
             startYear="2019"
             ctaText="JOIN THE NEWSLETTER"
             ctaUrl="#newsletter"
+          />
+        </Li> */}
+        <Li key="2019-05-16">
+          <Show
+            title="Step Higher"
+            startDate="Thursday, 16 MAY"
+            startYear="2019"
+            venueName="VOID Berlin"
+            venueSecret={false}
+            venueUrl="http://www.void-club.de/"
+            venueAddress="Wiesenweg 5&ndash;9, 10365 Berlin"
+            venueGMapsUrl="https://goo.gl/maps/u3kKsYuZQqGmseCF6"
+            fbEventUrl="https://www.facebook.com/events/207014390242505/?event_time_id=207014406909170"
           />
         </Li>
       </Ul>
@@ -61,11 +74,13 @@ const Shows = ({ id }) => (
             title="Fire Loves Sugar: EP Release Hangout"
             startDate="Thursday, 14 FEB"
             startYear="2019"
-            venueName="Secret venue near Warschauer Str, Berlin"
+            venueName="Private event"
+          />
+          {/* Previously displayed when 14 Feb show was upcoming
             venueSecret
             ctaText="EMAIL FOR SECRET ADDRESS"
             ctaUrl="mailto:labrysinthe@gmail.com"
-          />
+          */}
         </Li>
       </Ul>
       <StyledH3>2018</StyledH3>
