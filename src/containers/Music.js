@@ -37,6 +37,22 @@ const Music = ({ id }) => (
       </TextLink>
     </p>
     <Ul>
+      <Li key="live-dj-set-void-club-berlin">
+        <Track
+          title="Live/DJ set at VOID Club Berlin, 16 May 2019"
+          soundCloudEmbed={[
+            <iframe
+              width="100%"
+              height="166"
+              scrolling="no"
+              frameBorder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/622152804&color=%236fdfdf&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+              title="Live/DJ set at VOID Club Berlin, 16 May 2019"
+            />
+          ]}
+        />
+      </Li>
       <Li key="live-dj-set-pms-the-l-night-party-kinzig9">
         <Track
           title="Live/DJ set @ PMS - The L-Night party / Kinzig9"
