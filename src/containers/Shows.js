@@ -53,7 +53,7 @@ const Shows = ({ id }) => (
     I only want H2#shows-previous to be visible if there are also upcoming ones to distinguish from(which means the aria-labelledby="shows-previous" attrib on its parent section should also change).
     */}
     <Section aria-labelledby="shows-previous">
-      <H2 id="shows-previous">Previous</H2>
+      {/* <H2 id="shows-previous">Previous</H2> */}
       <StyledH3>2019</StyledH3>
       <Ul>
         <Li key="2019-05-16">
