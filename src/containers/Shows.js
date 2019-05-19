@@ -34,9 +34,9 @@ const Shows = ({ id }) => (
     <H1>Shows</H1>
     {/* Show conditionally:
     ... */}
-    <Section aria-labelledby="shows-upcoming">
+    {/* <Section aria-labelledby="shows-upcoming">
       <H2 id="shows-upcoming">Upcoming</H2>
-      <Ul>
+      <Ul> */}
         {/* <Li key="2019-XX-XX">
           <Show
             title="Fire Loves Sugar: EP Release Party"
@@ -46,6 +46,16 @@ const Shows = ({ id }) => (
             ctaUrl="#newsletter"
           />
         </Li> */}
+      {/* </Ul>
+    </Section> */}
+
+    {/* ...
+    I only want H2#shows-previous to be visible if there are also upcoming ones to distinguish from(which means the aria-labelledby="shows-previous" attrib on its parent section should also change).
+    */}
+    <Section aria-labelledby="shows-previous">
+      <H2 id="shows-previous">Previous</H2>
+      <StyledH3>2019</StyledH3>
+      <Ul>
         <Li key="2019-05-16">
           <Show
             title="Step Higher"
@@ -57,18 +67,10 @@ const Shows = ({ id }) => (
             venueAddress="Wiesenweg 5&ndash;9, 10365 Berlin"
             venueGMapsUrl="https://goo.gl/maps/u3kKsYuZQqGmseCF6"
             fbEventUrl="https://www.facebook.com/events/207014390242505/?event_time_id=207014406909170"
+            ctaText="HEAR THE SET"
+            ctaUrl="#music"
           />
         </Li>
-      </Ul>
-    </Section>
-
-    {/* ...
-    I only want H2#shows-previous to be visible if there are also upcoming ones to distinguish from(which means the aria-labelledby="shows-previous" attrib on its parent section should also change).
-    */}
-    <Section aria-labelledby="shows-previous">
-      <H2 id="shows-previous">Previous</H2>
-      <StyledH3>2019</StyledH3>
-      <Ul>
         <Li key="2019-02-14">
           <Show
             title="Fire Loves Sugar: EP Release Hangout"
