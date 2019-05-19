@@ -14,6 +14,7 @@ const HostStyles = css`
 
 const WhenStyles = css`
   font-size: ${({ theme }) => theme.type.large.fontSize};
+  margin-top: ${({ theme }) => theme.space.half};
   margin-bottom: ${({ theme }) => theme.space.quarter};
 
   * {
