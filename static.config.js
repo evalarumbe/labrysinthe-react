@@ -61,7 +61,7 @@ export default {
         />
         {/* Facebook + Twitter thumbnails */}
         <meta property="og:title" content="Labrysinthe" />
-        <meta property="og:description" content="Fire Loves Sugar &mdash; New EP coming soon!" />
+        <meta property="og:description" content="Fire Loves Sugar &mdash; New EP out now!" />
         <meta property="og:image" content="https://www.labrysinthe.com/website-thumbnail.png" />
         <meta property="og:url" content="https://www.labrysinthe.com/" />
         <meta name="twitter:card" content="summary_large_image" />
