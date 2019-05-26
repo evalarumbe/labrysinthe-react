@@ -25,7 +25,7 @@ const Socials = () => (
         title="Beatport"
         className="icon-beatport"
         role="img"
-        aria-label="Beaport"
+        aria-label="Beatport"
       />
     </Li>
     <Li key="soundcloud">
