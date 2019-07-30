@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 
 const ga_tracking =
   "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-131654117-1', { 'anonymize_ip': true });";
