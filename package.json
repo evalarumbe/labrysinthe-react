@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "ajv": "^6.5.5",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "contentful": "^7.0.5",
     "polished": "^2.3.0",
     "prop-types": "^15.6.2",
