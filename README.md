@@ -2,7 +2,9 @@
 
 This website is being crafted to be robust and extensible as a prototype for similar portfolio sites in future. Improvements are ongoing.
 
-See it live at [labrysinthe.com](https://www.labrysinthe.com/)
+To meet the client's business needs, this has now been rebuilt as a WordPress site, which you can see live at [labrysinthe.com](https://www.labrysinthe.com/).
+
+To see this React Static version in action, feel free to build it locally.
 
 This site was built with:
 
