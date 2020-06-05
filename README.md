@@ -1,10 +1,8 @@
 # Musician's portfolio built on React Static
 
-This website is being crafted to be robust and extensible as a prototype for similar portfolio sites in future. Improvements are ongoing.
-
 This has now been rebuilt as a WordPress site, which you can see live at [labrysinthe.com](https://www.labrysinthe.com/).
 
-To see this React Static version in action, feel free to build it locally.
+To see this React Static version in action, feel free to build it locally. Some dependencies may be outdated as this repo is no longer being maintained.
 
 This site was built with:
 
@@ -21,8 +19,3 @@ Dev dependencies include:
 
 - [Prettier](https://prettier.io/) + [ESLint](https://eslint.org/) with customised [Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) ([Style guide](https://github.com/airbnb/javascript)).
 - [stylelint](https://stylelint.io/)
-
-Coming soon:
-
-- [react-testing-library](https://github.com/kentcdodds/react-testing-library) with [Jest](https://jestjs.io/)
-- [Contentful](https://www.contentful.com/)
