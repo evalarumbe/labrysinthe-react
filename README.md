@@ -1,5 +1,7 @@
 # Musician's portfolio built on React Static
 
+** ARCHIVED **
+
 This has now been rebuilt as a WordPress site, which you can see live at [labrysinthe.com](https://www.labrysinthe.com/).
 
 To see this React Static version in action, feel free to build it locally. Some dependencies may be outdated as this repo is no longer being maintained.
